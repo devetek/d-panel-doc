@@ -14,12 +14,12 @@ const config: Config = {
   url: "https://cloud.terpusat.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/d-panel-doc/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "devetek", // Usually your GitHub org/user name.
-  projectName: "d-panel", // Usually your repo name.
+  projectName: "d-panel-doc", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
