@@ -97,42 +97,42 @@ const config: Config = {
           items: [
             {
               label: "Mulai",
-              to: "/docs/intro",
+              to: "/docs/id/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Platform",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Try it now!",
+              href: "https://cloud.terpusat.com",
             },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
+            // {
+            //   label: "X",
+            //   href: "https://x.com/docusaurus",
+            // },
           ],
         },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/dpanel/d-panel",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} dPanel.`,
     },
     prism: {
       theme: prismThemes.github,
