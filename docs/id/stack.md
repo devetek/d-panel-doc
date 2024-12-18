@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Arsitektur
 
-dPanel menggunakan teknologi yang membuat ekosistem menjadi lebih fleksibel dan dapat ditingkatkan di kemudian hari. Dibangun di atas 3 stack utama berikut:
+dPanel dibangun menggunakan teknologi yang membuat ekosistemnya menjadi fleksibel dan dapat ditingkatkan di kemudian hari. Dibangun di atas 4 stack utama berikut:
 - PostgreSQL
 - Golang
 - React.js
@@ -27,7 +27,7 @@ Manager adalah dPanel backend yang dibuat dengan bahasa pemrograman Golang dan P
 
 Creator adalah kumpulan configuration management yang dibangun dengan Ansible sebagai backbone. Dimana creator adalah engine yang bertanggung jawab melakukan komunikasi antara manager dan resource yang digunakan. Sebagai gambaran di bawah ini akan menunjukkan fungsi-fungsi yang terdapat di dalam Creator.
 
-![Creator Diagram](./../intro/creator-diagram.jpg)
+![Creator Diagram](./../assets/creator-diagram.jpg)
 
 ### Agent
 

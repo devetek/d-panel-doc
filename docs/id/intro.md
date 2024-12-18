@@ -12,6 +12,6 @@ Mempermudah proses instalasi berbagai binari untuk kebutuhan aplikasi, lalu jala
 
 Dukungan peluncuran cepat untuk:
 
-- IDCLoudHost
+- IDCloudHost
 
-![Virtual Machine](./../intro/virtual-machine.png)
+![Virtual Machine](./../assets/virtual-machine.png)

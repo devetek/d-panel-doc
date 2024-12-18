@@ -8,13 +8,13 @@ const config: Config = {
   title: "dPanel - Documentation",
   tagline:
     "dPanel is a powerful and easy-to-use platform to manage servers and hosted services without Installation.",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
   // Set the production url of your site here
   url: "https://cloud.terpusat.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/d-panel-doc/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -28,8 +28,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "id",
+    locales: ["id"],
   },
 
   presets: [
@@ -41,7 +41,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/devetek/d-panel-doc/tree/main/",
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +52,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/devetek/d-panel-doc/tree/main/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -72,7 +72,9 @@ const config: Config = {
       title: "dPanel",
       logo: {
         alt: "dpanel - Free Hosting Panel",
-        src: "img/logo.svg",
+        src: "img/terpusat_logo.png",
+        href: "https://cloud.terpusat.com",
+        target:"_self",
       },
       items: [
         {
@@ -81,7 +83,7 @@ const config: Config = {
           position: "left",
           label: "Documentation",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         // {
         //   href: "https://github.com/devetek/d-panel",
         //   label: "GitHub",
@@ -93,10 +95,10 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Product",
           items: [
             {
-              label: "Mulai",
+              label: "Documentation",
               to: "/docs/id/intro",
             },
           ],
@@ -127,7 +129,7 @@ const config: Config = {
             // },
             {
               label: "GitHub",
-              href: "https://github.com/dpanel/d-panel",
+              href: "https://github.com/devetek/d-panel-router",
             },
           ],
         },
