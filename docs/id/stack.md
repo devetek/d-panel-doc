@@ -12,6 +12,8 @@ dPanel dibangun menggunakan teknologi yang membuat ekosistemnya menjadi fleksibe
 - React.js
 - Ansible
 
+Yang sudah teruji digunakan oleh perusahaan teknologi besar seperti Google, Meta, Bytedance untuk melayani jutaan pelanggan. 
+
 Terdapat 3 komponen utama dalam ekosistem dPanel yang masing-masing memiliki peranan yang akan dijelaskan di bawah ini:
 - dPanel Manager
 - dPanel Creator
