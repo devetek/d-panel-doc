@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4583],{8431:(e,t,n)=>{n.r(t),n.d(t,{default:()=>c});var s=n(6540),u=n(4848);function r(){return(0,s.useEffect)((()=>{setTimeout((()=>{window.location.href="https://cloud.terpusat.com"}),1e3)}),[]),(0,u.jsx)(u.Fragment,{children:"Loading..."})}function c(){return(0,u.jsx)(r,{})}}}]);
