@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Penjelasan
+# Pengantar
 
 ## Apa itu dPanel?
 
